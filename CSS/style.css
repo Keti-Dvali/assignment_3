@@ -1,0 +1,179 @@
+body{
+    width: 1440px;
+    height: 1024px;
+
+    background: #FFFFFF;
+}
+.navigation {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: 'FiraGo';
+    src: url(../fonts/FiraGO-Bold.ttf);
+}
+@font-face {
+    font-family: 'Open Sans Italic';
+    src: url(../fonts/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+.home, .contact, .about{
+    display: inline-block;
+    text-transform: capitalize;
+    font-family: 'Poppins';
+}
+.home{
+    margin-left: 537px;
+}
+.contact, .about{
+    margin-left: 66px;
+}
+header{
+    padding-top:  30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #000000;
+}
+h2{
+    margin-top: 72px;
+    margin-left: 520px;
+    font-family: 'FiraGo';
+    font-weight: 500;
+    font-size: 24px;
+}
+.pic1, .pic2, .pic3{
+    margin-top: 65px;
+}
+.pic1{
+    display: inline-block;
+    width: 333px;
+    height: 487px;
+    padding: 11px;
+    margin-left: 126px;
+    border: 1px solid #000000;
+}
+.title{
+    padding-left:25.62px;
+    margin-top: 5px;
+    margin-bottom: 13.48px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 16px;
+}
+.description{
+    padding-left: 26px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+}
+img{
+    width: 100;
+}
+.pic2{
+    display: inline-block;
+    width: 333px;
+    height: 487px;
+    padding: 11px;
+    margin-left: 112px;
+    border: 1px solid #000000;
+}
+.pic3{
+    display: inline-block;
+    width: 333px;
+    height: 487px;
+    padding: 11px;
+    margin-left: 98px;
+    border: 1px solid #000000;
+}
+.button1, .button2, .button3{
+    padding: 6px 26px;
+    font-family: 'Poppins';
+    /* background-color: #FFFFFF; */
+}
+.button1{
+    margin-left: 330px;
+    margin-top: 26px;
+}
+.button2{
+    margin-left: 315px;
+    margin-top: 26px;
+}
+.button3{
+    margin-left: 303px;
+    margin-top: 26px;
+}
+.list1, .list2, .list3{
+    display: inline-block;
+    margin-top: 68px;
+    margin-bottom: 118px;
+    font-family: 'Open Sans';
+    line-height: 19px;
+    font-size: 14px;
+}
+.list1{
+    margin-left: 160px;
+}
+.list2{
+    margin-left: 200px;
+}
+.list3{
+    margin-left: 190px;
+}
+.contact-us{
+    margin-left: 609px;
+    margin-top: 112px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 40px;
+    text-transform: capitalize;
+    color: #7D0000;
+}
+.address, .phone{
+    margin-top: 32px;
+    margin-left: 206px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.mail{
+    margin-top: 132px;
+    margin-left: 206px;
+    font-family: 'Open Sans Italic';
+    font-weight: 600;
+    font-size: 25px;
+}
+.title-about{
+    margin-left: 518px;
+    margin-top: 112px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 40px;
+    color: #7D0000
+}
+.text-about{
+    margin-left: 175px;
+    margin-top: 118px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 165%;
+    text-transform: capitalize;
+}
+.company-address{
+    margin-left: 175px; 
+    margin-top: 59px;
+    font-family: 'Open Sans Italic';
+    font-weight: 400;
+    font-size: 25px;
+    text-transform: capitalize;
+}
